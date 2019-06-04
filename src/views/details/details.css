@@ -1,0 +1,337 @@
+.detailArticle {
+	width: 750px;
+
+	margin: 10px auto 40px;
+}
+
+/*.onedetailArticle {
+	width: 750px;
+	background-color: #fff;
+}*/
+.detailtest{
+	font-family: PingFang-SC-Heavy;
+	font-size: 21px;
+	color: rgb(51, 51, 51);
+	margin-right: 30px;
+	font-weight: 600;
+}
+
+.content1 ul,
+li {
+	/*list-style: none;*/
+}
+
+.detail-box {
+	border-radius: 4px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(200, 200, 200, 0.48);
+	margin-bottom: 10px;
+}
+
+.evaluating {
+	background-color: #fff;
+}
+
+.articleTag {
+	padding: 15px 0 0;
+}
+
+.detailWrap {
+	padding: 20px;
+}
+
+.articlerow2 {
+	padding: 20px 0 10px;
+}
+
+.articleRow5 {
+	overflow: hidden;
+	padding: 15px;
+	border-top: 1px solid #ededed;
+}
+
+.articleDetail {
+	position: absolute;
+	right: 30px;
+}
+
+.detail1 {
+	margin-left: 30px;
+	float: left;
+	position: relative;
+}
+
+.detail1 img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: -22px;
+	top: -2px;
+}
+
+.detail1 label {
+	font-size: 14px;
+	color: #aaaaaa;
+	margin-left: 5px;
+}
+
+.articlePreview {
+	border-top: 10px solid rgb(246, 246, 246);
+}
+
+.articleF {
+	padding: 15px;
+	border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.articleF>img {
+	width: 32px;
+	height: 32px;
+	border-radius: 20px;
+}
+
+
+/*评论*/
+
+.previewContent {
+	padding: 15px 15px 0;
+}
+
+.previewContent h2 {
+	color: rgb(59, 136, 246);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.listName {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 4px;
+	font-size: 16px;
+	color: rgb(51, 51, 51);
+}
+
+.listfloor {
+	float: right;
+}
+
+.floor {
+	color: rgb(133, 144, 166);
+}
+
+.listContent {
+	/*width: 668px;*/
+	margin-left: 45px;
+	line-height: 24px;
+	color: rgb(63, 69, 81);
+	padding: 4px 0 14px;
+}
+
+.listContent>div {
+	padding-left: 10px;
+}
+
+.articleRow {
+	padding: 10px 0 0 35px;
+}
+
+.articleInputC {
+	height: 30px;
+	line-height: 30px;
+	margin-left: 45px;
+	float: left;
+	border: 1px solid rgb(228, 228, 228);
+	background-color: rgb(246, 246, 246);
+}
+
+.articleInput {
+	width: 470px;
+}
+
+.elvaInput {
+	width: 406px;
+}
+
+.articleBack {
+	display: inline-block;
+	width: 75px;
+	height: 30px;
+	line-height: 30px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	background-color: rgb(59, 136, 246);
+	border-radius: 3px;
+	outline: none;
+	margin-left: 44px;
+	cursor: pointer;
+}
+
+.articleInput input {
+	width: 445px;
+	height: 30px;
+	padding-left: 10px;
+	outline: none;
+	border: none;
+	background-color: rgb(246, 246, 246);
+}
+
+.elvaInput input {
+	width: 394px;
+	height: 30px;
+	padding-left: 10px;
+	outline: none;
+	border: none;
+	background-color: rgb(246, 246, 246);
+}
+
+.contentList {
+	padding: 20px 10px 0;
+	border-bottom: 1px solid rgb(237, 237, 237);
+}
+.contentList:last-child{
+	border-bottom:none;
+}
+
+.rowLeft {
+	margin-left: 10px;
+}
+
+.contenlist-title {
+	float: left;
+}
+.contenlist-title img{
+	border-radius: 50%;
+	border: 1px solid #dddddd;
+}
+
+.list {
+	overflow: hidden;
+}
+
+.contenlist-title img {
+	width: 32px;
+	height: 32px;
+}
+
+.listContentTime {
+	float: right;
+}
+
+
+/*爆料*/
+
+#prep {
+	margin: 0;
+	white-space: pre-wrap;
+	/*css-3*/
+	white-space: -moz-pre-wrap;
+	/*Mozilla,since1999*/
+	white-space: -pre-wrap;
+	/*Opera4-6*/
+	white-space: -o-pre-wrap;
+	/*Opera7*/
+	word-wrap: break-word;
+	/*InternetExplorer5.5+*/
+}
+
+.disscussContents {
+	font-size: 16px;
+	margin: 15px 0;
+}
+
+.burstImg {
+	padding: 10px 15px;
+	height: 140px;
+	position: relative;
+}
+
+.burstImg img {
+	width: 220px;
+	height: 117px;
+	margin-right: 10px;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	z-index: 0;
+	transform: scale(1);
+	/*图片原始大小1倍*/
+	transition: all ease 0.5s;
+}
+
+.burstImg img.scale {
+	height: auto;
+	transform: scale(3);
+	position: absolute;
+	z-index: 100;
+	transition: all ease 0.5s;
+}
+
+
+/*评测*/
+
+.articleContent {
+	line-height: 26px;
+	font-size: 16px;
+	position: relative;
+	word-break: break-word;
+}
+
+.scoreTitle {
+	color: rgb(51, 51, 51);
+	float: left;
+	font-size: 15px;
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.totle {
+	font-size: 15px;
+}
+
+.totle1 {
+	font-size: 14px;
+}
+
+.totlescore {
+	font-weight: 600;
+	float: right;
+}
+
+.slider {}
+
+.sliderList {
+	border-radius: 3px;
+	box-shadow: 0 2px 7px 0 rgba(103, 166, 255, 0.37);
+}
+
+.sliderList:hover {
+	box-shadow: 0 2px 12px 0 rgba(103, 166, 255, 0.27);
+}
+
+
+/*评测的进度条*/
+
+.slider .el-slider {
+	width: 100%!important;
+}
+
+.slider .el-slider__button-wrapper {
+	display: none;
+}
+
+
+/*.slider .el-slider__runway.disabled .el-slider__bar{
+	background-color:rgb(60,137,247);
+}*/
+.detail .el-popover__title{
+	text-align: center;
+	font-size: 15px!important;
+}
+.detail #qrcode img{
+	width: 100%;
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+
+}

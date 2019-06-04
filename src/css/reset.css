@@ -1,0 +1,25 @@
+html,body{
+  font-size: 12px;
+  margin: 0;
+  height: 100%;
+  font-family: 'PingFang-SC-Bold',"Microsoft YaHei","微软雅黑","黑体","宋体",,Arial;
+}
+html, body, div, span,h1, h2, h3, h4, h5, h6, p, blockquote, a, big, cite, em, font, img, strike,  ol, ul, li, fieldset, form, table, caption, tr, th, prep,td ,textarea,input{ margin:0; padding:0;  }
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:active {
+    color: #444444;
+    opacity: 1;
+}
+.margin-bottom{
+	margin-bottom: 10px;
+}
+/*ul,li{
+	list-style: none;
+}*/
+
+
+
+
